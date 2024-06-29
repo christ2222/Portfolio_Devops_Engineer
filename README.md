@@ -84,9 +84,7 @@ The CI/CD pipeline consists of two stages:
    - AWS CodePipeline will automatically trigger the pipeline and deploy the website.
 
 ## Usage
-
-- **Staging Environment**: Accessible at `staging.yourdomain.com`.
-- **Production Environment**: Accessible at `www.yourdomain.com`.
+- **Production Environment**: Accessible at `myportfolio.logotse.com`.
 
 ## Contributing
 
