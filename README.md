@@ -24,7 +24,6 @@ See attached portfolio.diagram.png
 - **Amazon S3**: Stores the static website files (HTML, CSS, JavaScript).
 - **AWS CodePipeline**: Orchestrates the CI/CD pipeline, which includes:
   - **Source Stage**: Retrieves the source code from GitHub.
-  - **Build Stage**: Uses AWS CodeBuild to build and package the website files.
   - **Deploy Stage**: Deploys the built files to the S3 bucket.
 - **Amazon CloudFront**: Distributes the website content globally with low latency.
 - **Amazon Route 53**: Manages the DNS records for the domain.
@@ -63,7 +62,6 @@ The CI/CD pipeline consists of two stages:
 3. **Set up AWS CodePipeline**:
    - Create a new pipeline in AWS CodePipeline.
    - Set the source provider to GitHub and connect your repository.
-   - Add a build stage with AWS CodeBuild.
    - Add a deploy stage to deploy to the S3 bucket.
 
 4. **Configure CloudFront**:
