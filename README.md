@@ -2,11 +2,11 @@
 
 # Resume Challenge Project
 
-Welcome to my Resume challenge Project repository! This project showcases more than my resume but it is most likely my portfolio. It displays my skills and experience in setting up a static website using AWS services, including a 2-stage CI/CD pipeline.
+Welcome to my Resume challenge Project repository! This project showcases more than my resume but it is most likely my portfolio. It displays my skills and experience in setting up a static website using AWS services, including a 2-stages CI/CD pipeline.
 
 ## Project Overview
 
-This project sets up a two-stage CI/CD pipeline to automatically deploy a static website to an Amazon S3 bucket. The website displays my portfolio include my resume. The source code is hosted in my personal GitHub repository and the other services use in this project are  the following AWS services:
+This project sets up a two-stages CI/CD pipeline to automatically deploy a static website to an Amazon S3 bucket. The website displays my portfolio include my resume. The source code is hosted in my personal GitHub repository and the other services use in this project are  the following AWS services:
 
 - **S3 Bucket**: To store and host the static files.
 - **GitHub**: As the version control system.
